@@ -3,7 +3,7 @@ import React from 'react';
 function App() {
 	return (
 		<>
-			<nav>
+			<nav id='nav-links'>
 				<a href="https://www.google.com">Link 1</a>
 				<a href="https://www.google.com">Link 2</a>
 				<a href="https://www.google.com">Link 3</a>
@@ -29,7 +29,7 @@ function App() {
 				</section>
 				<section>
 					<h2 id="section-two-header">Section Two Title</h2>
-					<img src="./images/happy-kitty-1800x1200.jpg" />
+					<img src="./images/happy-kitty-1800x1200.jpg" alt='A super happy kitty' id='happy-kitty-img'/>
 					<p>
 						Umami taxidermy quis neutra. Brooklyn street art fam veniam PBR&B vinyl
 						id irure flannel anim fugiat chillwave YOLO gentrify. Tousled
